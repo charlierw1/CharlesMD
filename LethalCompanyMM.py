@@ -16,10 +16,10 @@ cmds = [
 
 
 def modmanage():
-"""
-Modmanage is a function that takes a command and either enables or disables mods in a Lethal Company installation if for
-whatever reason someone doesn't want to use any big mod manager.
-"""
+    """
+    Modmanage is a function that takes a command and either enables or disables mods in a Lethal Company installation if for
+    whatever reason someone doesn't want to use any big mod manager.
+    """
     while True:
         command = str(input("CharlesMD/LethalCompanyMM> "))
         match command.lower():  # Take input and run code according to the command

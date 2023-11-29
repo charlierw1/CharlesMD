@@ -1,9 +1,5 @@
-import os
-import shutil
-# Import modules
-
-mod_dir = "S:/SteamLibrary/steamapps/common/Lethal Company/"
-mod_inactive_dir = "S:/SteamLibrary/steamapps/common/Lethal Company/BepInExPack/"
+mod_dir = "LETHAL_COMPANY_PATH_HERE"
+mod_inactive_dir = "MOD_STORAGE_PATH_HERE"
 # Set Paths of the Lethal Company folder and where the mods are stored when not in use
 
 cmds = [
